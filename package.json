@@ -4,7 +4,9 @@
   "description": "Rating front-end",
   "author": "Joey Schluchter <jschluchter@gmail.com>",
   "scripts": {
-    "start": "SITE_CODE='FR' API='http://rating-api:8080' webpack-dev-server"
+    "start": "SITE_CODE='FR' API='http://rating-api:8080' webpack-dev-server",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "at-ui": "^1.2.0-beta",
@@ -32,7 +34,8 @@
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "2.6.10",
     "webpack": "^3.12.0",
-    "webpack-dev-server": "^2.5.0"
+    "webpack-dev-server": "^2.5.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.1",
@@ -58,5 +61,6 @@
     "webpack": "^3.12.0",
     "webpack-dev-server": "^2.5.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
