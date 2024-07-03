@@ -31,8 +31,8 @@
     "vue-loader": "^13.0.0",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "2.6.10",
-    "webpack": "^3.12.0",
-    "webpack-dev-server": "^2.5.0"
+    "webpack": "^4.0.0",
+    "webpack-dev-server": "^4.9.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.1",
@@ -55,8 +55,8 @@
     "vue-loader": "^13.0.0",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "2.6.10",
-    "webpack": "^3.12.0",
-    "webpack-dev-server": "^2.5.0"
+    "webpack": "^4.0.0",
+    "webpack-dev-server": "^4.9.0"
   },
   "license": "MIT"
 }
